@@ -41,7 +41,7 @@ jobs:
     - uses: vemonet/setup-spark@v1
       with:
         spark-version: '2.4.8'
-        hadoop-version: '2.7
+        hadoop-version: '2.7'
     - name: Test with pytest
       run: |
         python -m pytest tests/integration/
